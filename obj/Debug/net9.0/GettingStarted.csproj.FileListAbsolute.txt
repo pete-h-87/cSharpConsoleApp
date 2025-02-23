@@ -12,3 +12,4 @@ C:\Users\peteh\Coding\C#\GettingStarted\obj\Debug\net9.0\refint\GettingStarted.d
 C:\Users\peteh\Coding\C#\GettingStarted\obj\Debug\net9.0\GettingStarted.pdb
 C:\Users\peteh\Coding\C#\GettingStarted\obj\Debug\net9.0\GettingStarted.genruntimeconfig.cache
 C:\Users\peteh\Coding\C#\GettingStarted\obj\Debug\net9.0\ref\GettingStarted.dll
+C:\Users\peteh\Coding\C#\GettingStarted\obj\Debug\net9.0\GettingStarted.sourcelink.json
