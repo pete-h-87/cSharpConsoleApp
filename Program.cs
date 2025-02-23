@@ -3,14 +3,36 @@
 namespace ArchitectArithmetic {
     class Program {
         public static void Main(string[] args) {
-            double totalPriceTEO = TeotihuacanPrice();
-            Console.WriteLine(totalPriceTEO);
 
-            double totalPriceTAJ = TajPrice();
-            Console.WriteLine(totalPriceTAJ);
+            Console.WriteLine("What monument would you like to work with?");
+            Console.Write("(1)Teotihuacan, (2)Taj Mahaal, (3)Great Mosque of Mecca : ");
 
-            double totalPriceMEC = MecPrice();
-            Console.WriteLine(totalPriceMEC);
+            string? monument = Console.ReadLine();
+
+            double totalCost;
+
+            switch (monument)
+                {
+                    case "1":
+                        totalCost = TeotihuacanPrice();
+                        break;
+                    case "2":
+                        totalCost = TajPrice();
+                        break;
+                    case "3":
+                        totalCost = MecPrice();
+                        break;
+                    default:
+                        totalCost = 0;
+                        break;
+                }
+
+            if (totalCost != 0) 
+            {
+                Console.WriteLine($"The total cost would be: {totalCost} dollars!");
+            } else {
+                Console.WriteLine("Please choose one of the three options.");
+            }
         }
 
         static double TeotihuacanPrice()
