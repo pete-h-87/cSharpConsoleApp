@@ -7,8 +7,8 @@ namespace ArchitectArithmetic
         public static void Main(string[] args)
         {
             Console.WriteLine("What monument would you like to work with?");
-            Console.Write("(1)Teotihuacan, (2)Taj Mahaal, (3)Great Mosque of Mecca : ");
-            
+            Console.WriteLine("(1)Teotihuacan, (2)Taj Mahaal, (3)Great Mosque of Mecca : ");
+
             string? monument = Console.ReadLine();
 
             double totalCost;
@@ -36,6 +36,7 @@ namespace ArchitectArithmetic
             else
             {
                 Console.WriteLine("Please choose one of the three options.");
+                Console.WriteLine("(1)Teotihuacan, (2)Taj Mahaal, (3)Great Mosque of Mecca : ");
             }
         }
 
